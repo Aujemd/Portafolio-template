@@ -1,0 +1,87 @@
+/*Estilos Generales*/
+
+html{
+        scroll-behavior: smooth;
+}
+/*Estilos del Banner*/
+.banner{
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+
+/*Estilos de about-me*/
+
+.about-me_img{
+    border-radius: 50%;
+}
+
+.flag{
+    display: inline-block;
+    background-image: url('../img/flag.jpg');
+    width: 16px;
+    height: 11px;
+    background-position: -16px 11px;
+}
+
+/*Estilos del portafolio*/
+.icon-fb:hover{
+    background-image: url('../img/social-media-icons.jpg');
+    background-position: 600px -35px;
+}
+
+.icon-fb{
+    background-image: url('../img/social-media-icons.jpg');
+    width: 50px;
+    height: 60px;
+    background-position: -263px 200px;
+    display: inline-block;
+}
+
+.icon-twitter{
+    background-image: url('../img/social-media-icons.jpg');
+    width: 50px;
+    height: 60px;
+    background-position: -150px 95px;
+    display: inline-block;
+}
+.icon-twitter:hover{
+    background-image: url('../img/social-media-icons.jpg');
+    width: 50px;
+    height: 60px;
+    background-position: 712px -140px;
+    text-decoration: none;   
+}
+
+.icon-github:hover{
+    background-image: url('../img/social-media-icons.jpg');
+    width: 50px;
+    height: 60px;
+    background-position: 543px -35px;   
+}
+
+.icon-github{
+    background-image: url('../img/social-media-icons.jpg');
+    width: 50px;
+    height: 60px;
+    background-position: -320px 200px;   
+    display: inline-block;
+}
+
+
+
+
